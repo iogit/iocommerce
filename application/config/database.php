@@ -75,9 +75,9 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
+	'hostname' => 'us-cdbr-azure-central-a.cloudapp.net:3306',
+	'username' => 'b95324a660f601',
+	'password' => '6c408cc0',
 	'database' => 'iocommerce_db',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
