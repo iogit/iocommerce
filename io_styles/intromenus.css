@@ -1,0 +1,89 @@
+#slide {
+    
+    border: 1px solid #CCCCCC;
+    font-family: arial,helvetica,sans-serif;
+    font-size: 11px;
+    height: auto;
+    list-style: none outside none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 220px;
+	
+    
+  
+}
+
+
+#slide li.sub, li.subBrands , li.subCategories, #slide li.top {
+    background: none repeat scroll 0 0 #3f6f9f;
+    border-bottom: 1px solid #FFFFFF;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    text-decoration: none;
+    text-indent: 20px;
+    width: 220px;
+}
+#slide li.sub , li.subBrands, li.subCategories{
+    background: url("../io_images/arrows/out.gif") no-repeat scroll 5px 8px #3f6f9f;
+}
+#slide li.top a {
+    background: url("../io_images/arrows/out.gif") no-repeat scroll 5px 8px transparent;
+    color: #ffffff;
+    display: block;
+    text-decoration: none;
+}
+#slide li.top a:hover {
+    background: url("../io_images/arrows/out-over.gif") no-repeat scroll 5px 8px #ffffff;
+    color: #9e0000;
+}
+
+
+
+#slide li.clicked {
+    background: url("../io_images/arrows/down.gif") no-repeat scroll 5px 8px #ffffff;
+    color: #888888;
+}
+#slide li.sub div, li.subBrands div,li.subCategories div {
+    background: none repeat scroll 0 0 #ffffff; /*sub menu background*/
+    font-family: verdana,sans-serif;
+    height:785px;
+    line-height: 1.2em;
+    padding: 0 15px;
+    text-indent: 0;
+    width: 200px;
+}
+#slide li div ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+#slide li div ul li {
+    float: left;
+    height: 20px;
+    width: 100%;
+}
+#slide li div ul li a {
+    background: url("../io_images/arrows/outv.gif") no-repeat scroll 5px 6px #FFFFFF;  /*sub menu text background*/
+    border-bottom: 1px solid #DDDDDD;
+    color: #888888;    /*color of sub menus' text*/
+    display: block;
+    font-size: 10px;
+    height: 19px;
+    line-height: 19px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-indent: 20px;
+    width: 100%;
+}
+#slide li div ul li a:hover {
+    background: url("../io_images/arrows/out-over.gif") no-repeat scroll 5px 6px #FFFFFF;  /*sub meu text backgroud color with mouse movement*/
+    color: #006699;
+}

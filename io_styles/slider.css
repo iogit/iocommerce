@@ -1,0 +1,311 @@
+
+@charset "utf-8";
+* {
+    margin: 0;
+    outline: medium none;
+    padding: 0;
+}
+body {
+    color: #666666;
+    font: 12px/20px Arial,Helvetica,sans-serif;
+}
+.cont {
+    margin: auto;
+    overflow: hidden;
+    width: 140px;
+}
+.hr {
+    background: url("../images/design_images/hr.png") repeat-x scroll 0 0 transparent;
+    height: 1px;
+    padding-bottom: 39px;
+}
+.hr2 {
+    background: url("../images/design_images/hr2.png") repeat-x scroll 0 0 transparent;
+    height: 1px;
+    padding-bottom: 39px;
+}
+.clear {
+    clear: both;
+    float: none;
+    height: 0;
+    overflow: auto;
+}
+h1, h1 a, h2, h2 a, h3, h3 a, h4, h4 a, h5, h5 a, h6, h6 a {
+    color: #333333;
+    font: 20px/20px Arial,Helvetica,sans-serif;
+}
+h2, h2 a {
+    font-size: 18px;
+}
+h3, h3 a {
+    font-size: 16px;
+}
+h4, h4 a {
+    font-size: 14px;
+}
+h5, h5 a, h6, h6 a {
+    font-size: 12px;
+}
+a {
+    text-decoration: none;
+}
+img {
+    border: medium none;
+    display: block;
+}
+.btn a {
+    background: url("../images/design_images/simple_btn_bg.png") no-repeat scroll 0 0 #666666;
+    color: #FFFFFF;
+    display: block;
+    height: 30px;
+    line-height: 29px;
+    margin-top: 10px;
+    text-align: center;
+    width: 100px;
+}
+.btn a:hover {
+    color: #FFCC00;
+}
+.col300 a img {
+    background: none repeat scroll 0 0 #333333;
+    margin: 10px 0;
+    padding: 5px;
+}
+.col300 a img:hover {
+    background: url("../images/design_images/img_hover.png") repeat-x scroll 0 0 #333333;
+    padding: 5px;
+}
+.col {
+    list-style: none outside none;
+    width: 160px;
+}
+.col220 {
+    float: left;
+    margin: 0 20px 40px 0;
+    width: 174px;
+}
+.col300 {
+    float: left;
+    margin: 0 20px 40px 0;
+    width: 300px;
+}
+.col460 {
+    float: left;
+    margin: 0 20px 20px 0;
+    width: 460px;
+}
+.col700 {
+    float: left;
+    margin: 0 20px 20px 0;
+    width: 700px;
+}
+.header {
+    background: url("../images/design_images/header_bg.png") no-repeat scroll center center #999999;
+    height: 150px;
+}
+.header .cont {
+    background: url("../images/design_images/header_cont_bg.png") no-repeat scroll 20px 110px transparent;
+}
+.header .cont .logo {
+    float: left;
+    margin: 40px 0;
+}
+.header .cont .icon {
+    float: right;
+    margin-top: 20px;
+}
+.header .cont .detail {
+    color: #FFFFFF;
+    float: right;
+    font: italic 18px/20px "Times New Roman",Times,serif;
+    list-style: none outside none;
+    margin: 35px 20px 35px 0;
+    text-align: right;
+}
+.header .cont .detail li:first-child {
+    color: #333333;
+    font-size: 20px;
+}
+.newsletter {
+    background: url("../images/design_images/newsletter_bg.png") no-repeat scroll center top #333333;
+    height: 50px;
+    margin-bottom: 40px;
+}
+.newsletter .cont {
+    background: none repeat scroll 0 0 transparent;
+}
+.newsletter .newsletter_form {
+    height: 30px;
+    margin: 10px auto;
+    width: 300px;
+}
+.newsletter .newsletter_form input {
+    border: medium none;
+    float: left;
+    height: 30px;
+}
+.newsletter .newsletter_form input.text {
+    background: url("../images/design_images/newsletter_input.png") no-repeat scroll 0 0 transparent;
+    color: #999999;
+    font: italic 12px/29px Arial,Helvetica,sans-serif;
+    padding: 0 10px;
+    width: 250px;
+}
+.newsletter .newsletter_form input.submit {
+    background: url("../images/design_images/newsletter_submit.png") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    width: 30px;
+}
+.highlight {
+    background: none repeat scroll 0 0 #F7F7F7;
+    border: 1px dashed #E5E5E5;
+    color: #999999;
+    font: italic 20px/20px "Times New Roman",Times,serif;
+    margin-bottom: 40px;
+    padding: 19px;
+    text-align: center;
+}
+.price_list {
+    list-style: none outside none;
+}
+.price_list li .title {
+    background: url("../images/design_images/price_bg.png") no-repeat scroll 0 0 transparent;
+    height: 50px;
+    padding: 0 15px;
+}
+.price_list li div.title.blue {
+    background-color: #6699CC;
+}
+.price_list li div.title.red {
+    background-color: #CC6600;
+}
+.price_list li div.title.yellow {
+    background-color: #FFCC00;
+}
+.price_list li div.title.green {
+    background-color: #99CC00;
+}
+.price_list li .title span {
+    color: #FFFFFF;
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 15px;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+.price_list li .title strong {
+    color: #FFFFFF;
+    float: right;
+    font-size: 20px;
+    line-height: 10px;
+}
+.price_list li ul {
+    border-bottom: 5px solid #666666;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.price_list li ul.blue {
+    border-bottom-color: #6699CC;
+}
+.price_list li ul.red {
+    border-bottom-color: #CC6600;
+}
+.price_list li ul.yellow {
+    border-bottom-color: #FFCC00;
+}
+.price_list li ul.green {
+    border-bottom-color: #99CC00;
+}
+.price_list li ul li {
+    border-top: 1px dotted #CCCCCC;
+    height: 29px;
+    line-height: 29px;
+    list-style: none outside none;
+    text-align: center;
+}
+.price_list li ul li:first-child {
+    border-top: medium none;
+    height: 30px;
+}
+.price_list li ul li:hover {
+    background: none repeat scroll 0 0 #F0F0F0;
+}
+.price_list li .order {
+}
+.price_list li .order a {
+    background: url("../images/design_images/btn_bg.png") no-repeat scroll 0 0 #666666;
+    color: #FFFFFF;
+    display: block;
+    font: bold 12px/30px Arial,Helvetica,sans-serif;
+    height: 30px;
+    margin: auto;
+    text-align: center;
+    width: 100px;
+}
+.price_list li .order a:hover {
+    background-color: #333333;
+    background-position: 0 -30px;
+    color: #FFCC00;
+    height: 35px;
+    line-height: 35px;
+    margin-top: -5px;
+}
+.footer {
+    background: url("../images/design_images/sdw.png") no-repeat scroll center top #333333;
+    padding: 40px 0;
+}
+.footer a {
+    color: #999999;
+}
+.footer a:hover {
+    color: #CCCCCC;
+}
+.footer h3 {
+    color: #FFFFFF;
+}
+.footer li {
+    list-style: none outside none;
+}
+.sel_style {
+    background: url("../images/design_images/sel_style_bg.png") no-repeat scroll 0 0 transparent;
+    height: 120px;
+    left: 10px;
+    padding: 35px 5px 5px;
+    position: fixed;
+    top: 50%;
+    width: 20px;
+}
+.sel_style li {
+    height: 20px;
+    list-style: none outside none;
+    margin-top: 5px;
+    width: 20px;
+}
+.sel_style li:first-child {
+    margin-top: 0;
+}
+.sel_style li.black {
+    background: none repeat scroll 0 0 #333333;
+}
+.sel_style li.red {
+    background: none repeat scroll 0 0 #CC5533;
+}
+.sel_style li.blue {
+    background: none repeat scroll 0 0 #6699CC;
+}
+.sel_style li.green {
+    background: none repeat scroll 0 0 #99CC00;
+}
+.sel_style li.yellow {
+    background: none repeat scroll 0 0 #FFCC00;
+}
+.sel_style li span a {
+    color: #FFFFFF;
+    display: block;
+    font-size: 1px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    width: 20px;
+}

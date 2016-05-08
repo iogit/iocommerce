@@ -1,0 +1,846 @@
+
+
+/*reset*/
+html, body, div, span,
+applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dd, dl, dt, li, ol, ul,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {	
+	
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:100%;
+	text-align:left;
+	vertical-align:baseline}
+a img, :link img, :visited img {border:0}
+table {
+	border-collapse: collapse;
+	border-spacing:0}
+ul{list-style:none}
+@charset "utf-8";
+
+q:before, q:after,
+blockquote:before, blockquote:after {
+	content: ""}
+:focus {outline:0}
+	html{
+	
+		width:100%;
+		height:100%}
+		body{
+			text-align:center;
+			margin:0 auto;
+			font:12px "Trebuchet MS",Tahoma, Arial, Helvetica, sans-serif;
+			color:#000;
+			background-color:#E9E9E9}
+
+
+	
+	#containermain{
+	
+	text-align:center;
+	margin:0 auto;
+	background: url("../../io_images/intro_repeat.jpg") repeat-y scroll 0 0 transparent;
+	width:1063px;
+	height:auto !important;
+	position:relative;
+	z-index:1;
+	box-shadow: 0px 0px 8px 3px rgba(119, 119, 119, 0.91);
+-moz-box-shadow: 0px 0px 8px 3px rgba(119, 119, 119, 0.91);
+-webkit-box-shadow: 0px 0px 8px 3px rgba(119, 119, 119, 0.91);
+	/*overflow:hidden*/;
+	}
+	
+	#containermainlogin{
+	
+	text-align:center;
+	margin:0 auto;
+	background: url("../../io_images/intro_repeat.jpg") repeat-y scroll 0 0 transparent;
+	width:1063px;
+	height:auto !important;
+	
+	position:relative;
+	z-index:1;
+	
+	/*overflow:hidden*/;
+	}
+	
+	#container{
+	text-align:center;
+	margin:0 auto;
+	
+	width:1063px;
+	height:100% !important;
+	position:relative;
+	z-index:1;
+	overflow:hidden;}
+	
+	#containerlogin{
+	text-align:center;
+	margin:0 auto;
+	
+	height:100% !important;
+	
+	position:relative;
+	z-index:1;
+	overflow:hidden;
+	margin: 0px 0;
+	}
+    /*login screen menus*/
+#containermiddle {
+    text-align:center;
+	margin-top:190px;
+	float:left;
+    width:1063px;
+	height:100% !important;
+	position:relative;
+	
+	z-index:1;
+	/*overflow:hidden;*/}
+	
+#containermenus{
+	text-align:center;
+	margin-left:40px;
+	margin-top:25px;
+	width:230px;
+	height:100% !important;
+	position:relative;
+	z-index:1;
+	/*overflow:hidden;*/
+	float:left;
+	}
+	
+	#containertopnav
+{
+text-align:right;
+	width:%100;
+	padding:8px;
+
+
+
+}
+		
+	
+#containerslider{
+	
+	
+	text-align:center;
+	margin-left:40px;
+	margin-top:15px;
+	width:785px;
+	max-height:350px;
+	height:auto !important;
+	position:relative;
+	z-index:1;
+	overflow:hidden;
+	
+	}
+
+
+#containermenus .intromenus{}
+#containermenus.introsearch{}
+#containermenus .introsocial{}
+
+
+/*intro screen footer*/
+	#containerfooter {
+    background-color: #FFFFFF;
+    background-image: url("../../io_images/intro_repeat.jpg");
+    background-position: 0 0;
+    background-repeat: repeat-y;
+    border-top: 1px solid #CCCCCC;
+    bottom: -20px !important;
+    color: #666666;
+	margin:0 auto;
+    font-size: 11px;
+    height: 20px !important;   
+    overflow: hidden;
+    position: relative;
+    width: %100;
+}
+	
+	
+	
+#containerfooter .introcontact {
+    
+   margin-left:60px;
+   
+	
+}
+#containerfooter .introcopyright{
+    
+	margin-left:350px;
+	
+}
+
+#containerfooter .introcopyright, #containerfooter .introcontact{
+line-height: 23px;
+width:%100;
+text-align:left;
+float:left;
+}
+
+/*Footer menu*/
+#introcontact, #introcopyright a:link {text-decoration: none}
+/*a:visited {text-decoration: none}
+a:active {text-decoration: none}
+a:hover {text-decoration: none; color: red;}
+a {text-decoration: none; 
+color: #666666;*/
+}
+
+.border_top{border-top:1px solid #ccc}
+/*menu*/
+.menu{
+	position:absolute;
+	top:136px;
+	left:40px;
+	width:1023px;
+	height:36px;
+	z-index:2}
+a.intromain, a.intronewproducts, a.introonsale,a.introcategories,a.introbrands,a.introcontact{
+	
+	width:223px;
+	height:48px;
+	display:block}
+	
+	a.smartwater{
+		width:223px;
+		height:24px;
+		display:block;
+		background:url(../../io_images/smartwater.jpg) no-repeat}
+		
+	a:hover.smartwater{background:url(../../io_images/smartwater.jpg) no-repeat 0 -24px}
+		
+	
+	/*---------------------------------------------- urun gruplari -------------------------------------------*/
+	a.agizvedis{
+	        margin-top:-218px;
+			margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/urungruplari/agizvedis.jpg) no-repeat}
+	a:hover.agizvedis{background:url(../../io_images/urungruplari/agizvedis.jpg) no-repeat 0 -24px}
+	
+	a.annevebebek{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/urungruplari/annevebebek.jpg) no-repeat}
+	a:hover.annevebebek{background:url(../../io_images/urungruplari/annevebebek.jpg) no-repeat 0 -24px}
+	
+	
+	a.cilt{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/urungruplari/cilt.jpg) no-repeat}
+	a:hover.cilt{background:url(../../io_images/urungruplari/cilt.jpg) no-repeat 0 -24px}
+	
+	a.cinsel{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/urungruplari/cinsel.jpg) no-repeat}
+	a:hover.cinsel{background:url(../../io_images/urungruplari/cinsel.jpg) no-repeat 0 -24px}
+	
+	a.diyet{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/urungruplari/diyet.jpg) no-repeat}
+	a:hover.diyet{background:url(../../io_images/urungruplari/diyet.jpg) no-repeat 0 -24px}
+	
+	a.elayaktirnak{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/urungruplari/elayaktirnak.jpg) no-repeat}
+	a:hover.elayaktirnak{background:url(../../io_images/urungruplari/elayaktirnak.jpg) no-repeat 0 -24px}
+	
+	a.erkekbakim{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/urungruplari/erkekbakim.jpg) no-repeat}
+	a:hover.erkekbakim{background:url(../../io_images/urungruplari/erkekbakim.jpg) no-repeat 0 -24px}
+	
+	a.fitoterapi{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/urungruplari/fitoterapi.jpg) no-repeat}
+	a:hover.fitoterapi{background:url(../../io_images/urungruplari/fitoterapi.jpg) no-repeat 0 -24px}
+	
+	
+	a.gunes{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/urungruplari/gunes.jpg) no-repeat}
+	a:hover.gunes{background:url(../../io_images/urungruplari/gunes.jpg) no-repeat 0 -24px}
+	
+	
+	
+	a.kadinsagligi{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/urungruplari/kadinsagligi.jpg) no-repeat}
+	a:hover.kadinsagligi{background:url(../../io_images/urungruplari/kadinsagligi.jpg) no-repeat 0 -24px}
+	
+	a.makyaj{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/urungruplari/makyaj.jpg) no-repeat}
+	a:hover.makyaj{background:url(../../io_images/urungruplari/makyaj.jpg) no-repeat 0 -24px}
+	
+	a.medikal{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/urungruplari/medikal.jpg) no-repeat}
+	a:hover.medikal{background:url(../../io_images/urungruplari/medikal.jpg) no-repeat 0 -24px}
+	
+	a.organik{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/urungruplari/organik.jpg) no-repeat}
+	a:hover.organik{background:url(../../io_images/urungruplari/organik.jpg) no-repeat 0 -24px}
+	
+	a.ortopedi{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/urungruplari/ortopedi.jpg) no-repeat}
+	a:hover.ortopedi{background:url(../../io_images/urungruplari/ortopedi.jpg) no-repeat 0 -24px}
+	
+	
+	
+	a.sac{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/urungruplari/sac.jpg) no-repeat}
+	a:hover.sac{background:url(../../io_images/urungruplari/sac.jpg) no-repeat 0 -24px}
+	
+	a.saglik{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/urungruplari/saglik.jpg) no-repeat}
+	a:hover.saglik{background:url(../../io_images/urungruplari/saglik.jpg) no-repeat 0 -24px}
+	
+	a.sigara{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/urungruplari/sigara.jpg) no-repeat}
+	a:hover.sigara{background:url(../../io_images/urungruplari/sigara.jpg) no-repeat 0 -24px}
+	
+	a.vitaminvebitkisel{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/urungruplari/vitaminvebitkisel.jpg) no-repeat}
+	a:hover.vitaminvebitkisel{background:url(../../io_images/urungruplari/vitaminvebitkisel.jpg) no-repeat 0 -24px}
+	
+	
+	a.vucut{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/urungruplari/vucut.jpg) no-repeat}
+	a:hover.vucut{background:url(../../io_images/urungruplari/vucut.jpg) no-repeat 0 -24px}
+	
+/*-------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------yeni urunler ------------------------------------------------------*/	
+
+a.biorichi{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/yeniurunler/biorichi.jpg) no-repeat}
+	a:hover.biorichi{background:url(../../io_images/yeniurunler/biorichi.jpg) no-repeat 0 -24px}
+
+
+
+a.boswel{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/yeniurunler/boswel.jpg) no-repeat}
+	a:hover.boswel{background:url(../../io_images/yeniurunler/boswel.jpg) no-repeat 0 -24px}
+
+		
+		a.dermalute{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/yeniurunler/dermalute.jpg) no-repeat}
+	a:hover.dermalute{background:url(../../io_images/yeniurunler/dermalute.jpg) no-repeat 0 -24px}
+	
+	a.elancyl{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/yeniurunler/elancyl.jpg) no-repeat}
+	a:hover.elancyl{background:url(../../io_images/yeniurunler/elancyl.jpg) no-repeat 0 -24px}
+	
+		a.fuzzy{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/yeniurunler/fuzzybrushes.jpg) no-repeat}
+	a:hover.fuzzy{background:url(../../io_images/yeniurunler/fuzzybrushes.jpg) no-repeat 0 -24px}
+	
+	
+		a.minoxil{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/yeniurunler/minoxil.jpg) no-repeat}
+	a:hover.minoxil{background:url(../../io_images/yeniurunler/minoxil.jpg) no-repeat 0 -24px}
+	
+	
+		a.rocs{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/yeniurunler/dermalute.jpg) no-repeat}
+	a:hover.rocs{background:url(../../io_images/yeniurunler/dermalute.jpg) no-repeat 0 -24px}
+
+	a.smartwater{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/yeniurunler/smart.jpg) no-repeat}
+	a:hover.smartwater{background:url(../../io_images/yeniurunler/smart.jpg) no-repeat 0 -24px}
+	
+			a.reyonlar{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/yeniurunler/smart.jpg) no-repeat}
+	a:hover.reyonlar{background:url(../../io_images/yeniurunler/smart.jpg) no-repeat 0 -24px}
+/*------------------------reyonlar---------------------------------------------------------*/
+
+a.abcderm{margin-left:10px;
+			margin-top:-321px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/reyonlar/abcderm.jpg) no-repeat}
+	a:hover.abcderm{background:url(../../io_images/reyonlar/abcderm.jpg) no-repeat 0 -24px}
+
+	a.avene{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/reyonlar/avene.jpg) no-repeat}
+	a:hover.avene{background:url(../../io_images/reyonlar/avene.jpg) no-repeat 0 -24px}
+
+	a.babe{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/reyonlar/babe.jpg) no-repeat}
+	a:hover.babe{background:url(../../io_images/reyonlar/babe.jpg) no-repeat 0 -24px}
+
+	
+	a.bioderma{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/reyonlar/bioderma.jpg) no-repeat}
+	a:hover.bioderma{background:url(../../io_images/reyonlar/bioderma.jpg) no-repeat 0 -24px}
+
+	a.biorichi{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/reyonlar/biorichi.jpg) no-repeat}
+	a:hover.biorichi{background:url(../../io_images/reyonlar/biorichi.jpg) no-repeat 0 -24px}
+
+	a.bioxcin{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/reyonlar/bioxcin.jpg) no-repeat}
+	a:hover.bioxcin{background:url(../../io_images/reyonlar/bioxcin.jpg) no-repeat 0 -24px}
+
+
+a.boswel{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/reyonlar/boswel.jpg) no-repeat}
+	a:hover.boswel{background:url(../../io_images/reyonlar/boswel.jpg) no-repeat 0 -24px}
+
+	
+
+	a.caudalie{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/reyonlar/caudalie.jpg) no-repeat}
+	a:hover.caudalie{background:url(../../io_images/reyonlar/caudalie.jpg) no-repeat 0 -24px}
+
+	a.clinerience{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/reyonlar/clinerience.jpg) no-repeat}
+	a:hover.clinerience{background:url(../../io_images/reyonlar/clinerience.jpg) no-repeat 0 -24px}
+	
+		a.coppertone{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/reyonlar/coppertone.jpg) no-repeat}
+	a:hover.coppertone{background:url(../../io_images/reyonlar/coppertone.jpg) no-repeat 0 -24px}
+
+		a.cumlaude{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/reyonlar/cumlaude.jpg) no-repeat}
+	a:hover.cumlaude{background:url(../../io_images/reyonlar/cumlaude.jpg) no-repeat 0 -24px}
+
+	a.ddf{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/reyonlar/ddf.jpg) no-repeat}
+	a:hover.ddf{background:url(../../io_images/reyonlar/ddf.jpg) no-repeat 0 -24px}
+
+	
+	a.dermalogica{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/reyonlar/dermalogica.jpg) no-repeat}
+	a:hover.dermalogica{background:url(../../io_images/reyonlar/dermalogica.jpg) no-repeat 0 -24px}
+
+	
+	
+	
+	
+		a.dermalute{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/reyonlar/dermalute.jpg) no-repeat}
+	a:hover.dermalute{background:url(../../io_images/reyonlar/dermalute.jpg) no-repeat 0 -24px}
+	
+	
+	
+	a.ducray{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/reyonlar/ducray.jpg) no-repeat}
+	a:hover.ducray{background:url(../../io_images/reyonlar/ducray.jpg) no-repeat 0 -24px}
+
+	
+	
+	a.elancyl{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/reyonlar/elancyl.jpg) no-repeat}
+	a:hover.elancyl{background:url(../../io_images/reyonlar/elancyl.jpg) no-repeat 0 -24px}
+	
+	a.filorga{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/reyonlar/filorga.jpg) no-repeat}
+	a:hover.filorga{background:url(../../io_images/reyonlar/filorga.jpg) no-repeat 0 -24px}
+
+	
+	
+	
+	
+		a.fuzzy{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/reyonlar/fuzzy.jpg) no-repeat}
+	a:hover.fuzzy{background:url(../../io_images/reyonlar/fuzzy.jpg) no-repeat 0 -24px}
+	
+	
+		a.hamilton{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/reyonlar/hamilton.jpg) no-repeat}
+	a:hover.hamilton{background:url(../../io_images/reyonlar/hamilton.jpg) no-repeat 0 -24px}
+	
+	
+	
+	
+	
+	
+	a.isis{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/reyonlar/isis.jpg) no-repeat}
+	a:hover.isis{background:url(../../io_images/reyonlar/isis.jpg) no-repeat 0 -24px}
+
+	
+	a.jane{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/reyonlar/jane.jpg) no-repeat}
+	a:hover.jane{background:url(../../io_images/reyonlar/jane.jpg) no-repeat 0 -24px}
+    a.klorane{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/reyonlar/klorane.jpg) no-repeat}
+	a:hover.klorane{background:url(../../io_images/reyonlar/klorane.jpg) no-repeat 0 -24px}
+    
+	
+	a.lierac{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/reyonlar/lierac.jpg) no-repeat}
+	a:hover.lierac{background:url(../../io_images/reyonlar/lierac.jpg) no-repeat 0 -24px}
+
+	
+	
+		a.minoxil{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/reyonlar/minoxil.jpg) no-repeat}
+	a:hover.minoxil{background:url(../../io_images/reyonlar/minoxil.jpg) no-repeat 0 -24px}
+	a.mustela{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/reyonlar/mustela.jpg) no-repeat}
+	a:hover.mustela{background:url(../../io_images/reyonlar/mustela.jpg) no-repeat 0 -24px}
+
+	a.noviderm{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/reyonlar/noviderm.jpg) no-repeat}
+	a:hover.noviderm{background:url(../../io_images/reyonlar/noviderm.jpg) no-repeat 0 -24px}
+
+	a.neostrata{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/reyonlar/neostrata.jpg) no-repeat}
+	a:hover.neostrata{background:url(../../io_images/reyonlar/neostrata.jpg) no-repeat 0 -24px}
+
+	a.nuxeparis{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/reyonlar/nuxe.jpg) no-repeat}
+	a:hover.nuxeparis{background:url(../../io_images/reyonlar/nuxe.jpg) no-repeat 0 -24px}
+
+	a.organix{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/reyonlar/organix.jpg) no-repeat}
+	a:hover.organix{background:url(../../io_images/reyonlar/organix.jpg) no-repeat 0 -24px}
+
+	a.phyto{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/reyonlar/phyto.jpg) no-repeat}
+	a:hover.phyto{background:url(../../io_images/reyonlar/phyto.jpg) no-repeat 0 -24px}
+
+	
+		a.revigen{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/reyonlar/revigen.jpg) no-repeat}
+	a:hover.revigen{background:url(../../io_images/reyonlar/revigen.jpg) no-repeat 0 -24px}
+	
+	
+	
+	
+	
+	
+		a.rocs{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/reyonlar/rocs.jpg) no-repeat}
+	a:hover.rocs{background:url(../../io_images/reyonlar/rocs.jpg) no-repeat 0 -24px}
+	
+	a.seaderm{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/reyonlar/seaderm.jpg) no-repeat}
+	a:hover.seaderm{background:url(../../io_images/reyonlar/seaderm.jpg) no-repeat 0 -24px}
+
+	a.sebamed{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/reyonlar/sebamed.jpg) no-repeat}
+	a:hover.sebamed{background:url(../../io_images/reyonlar/sebamed.jpg) no-repeat 0 -24px}
+
+	a.sensodyn{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/reyonlar/sensodyn.jpg) no-repeat}
+	a:hover.sensodyn{background:url(../../io_images/reyonlar/sensodyn.jpg) no-repeat 0 -24px}
+	
+	
+	
+	a.solgar{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/reyonlar/solgar.jpg) no-repeat}
+	a:hover.solgar{background:url(../../io_images/reyonlar/solgar.jpg) no-repeat 0 -24px}
+
+	
+	a.synchroline{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/reyonlar/synchroline.jpg) no-repeat}
+	a:hover.synchroline{background:url(../../io_images/reyonlar/synchroline.jpg) no-repeat 0 -24px}
+
+	a.xls{margin-left:10px;
+			width:223px;
+			height:24px;
+			display:block;
+			background:url(../../io_images/reyonlar/xls.jpg) no-repeat}
+	a:hover.xls{background:url(../../io_images/reyonlar/xls.jpg) no-repeat 0 -24px}
+
+	
+
+a:hover.intromain, a:hover.intronewproducts, a:hover.introonsale, a:hover.introcategories, a:hover.introbrands, a:hover.introcontact{
+	width:223px;
+	height:48px;
+	display:block}
+
+
+
+	
+	a.intromain{background:url(../../io_images/ana.jpg) no-repeat}
+		a:hover.intromain, .over1{background:url(../../io_images/ana.jpg) no-repeat 0 -48px !important}
+	
+	a.intronewproducts{background:url(../../io_images/yeniurun.jpg) no-repeat}
+		a:hover.intronewproducts, .over2{background:url(../../io_images/yeniurun.jpg) no-repeat 0 -48px !important}	
+	
+	a.introonsale{background:url(../../io_images/kampanya.jpg) no-repeat}
+		a:hover.introonsale, .over3{background:url(../../io_images/kampanya.jpg) no-repeat 0 -48px !important}
+
+    a.introcategories{background:url(../../io_images/urun.jpg) no-repeat}
+		a:hover.introcategories, .over4{background:url(../../io_images/urun.jpg) no-repeat 0 -48px !important}
+    a.introbrands{background:url(../../io_images/reyon.jpg) no-repeat}
+		a:hover.introbrands, .over5{background:url(../../io_images/reyon.jpg) no-repeat 0 -48px !important}
+a.introcontact{background:url(../../io_images/iletisim.jpg) no-repeat}
+		a:hover.introcontact, .over6{background:url(../../io_images/iletisim.jpg) no-repeat 0 -48px !important}		
+		
+.menu span{display:none}
+
+.relativ{position:relative}
+
+
+
+.menu li{
+     
+	width:223px;
+	/*ie fix*/
+	line-height:1.3em;
+	vertical-align:middle;
+	/*zoom:1;
+	ie fix*/}
+.menu li ul{float:left; margin:0 0 0 223px; position:absolute; top:0; left:0; visibility:hidden}
+.menu li:hover > ul{visibility:visible}
+.caroufredsel{
+background-color:#333;
+margin-top:10px;
+color:#000;
+height:auto;
+}
+.detail,.detail1,.detail2,.detail3,.detail4,.detail5,.detail6{
+	width:546px !important;
+	height:456px;
+	left:0;
+	position:absolute;
+	vertical-align:top;
+	background:url(../../io_images/detail.png) no-repeat}
+	.detail,.detail1{top:-138px; left:10px;}
+	.detail2,.detail3{top:-186px; left:10px;}
+	.detail3,.detail4{top:-234px; left:10px;}
+	.detail4,.detail5{top:-282px; left:10px;}
+	.detail5,.detail6{top:-330px; left:10px;}
+	.detail6{ top:-378px; left:234px; height:200px;}
+	
+	.big_pic, .big_pic1, .agizvedis_pic, .annevebebek_pic, .cilt_pic,.cinsel_pic ,.diyet_pic,.elayaktirnak_pic,.erkekbakim_pic ,.fitoterapi_pic,
+	.gunes_pic,.kadin_pic,.makyaj_pic,.medikal_pic,.ortopedi_pic,.sacbakimi_pic,.vucut_pic,.vitaminvebitkisel_pic{
+		display:block;
+		width:495px;
+		height:231px;
+		position:absolute;
+		top:25px;
+		left:25px}
+		
+		.big_pic{background:url(../../io_images/boxter_big.jpg) no-repeat}
+		.big_pic1{background:url(../../io_images/boxter_big1.jpg) no-repeat}
+		.agizvedis_pic{background:url(../../io_images/resimler/urunler/agizvedis.jpg) no-repeat}
+		.annevebebek_pic{background:url(../../io_images/resimler/urunler/annevebebek.jpg) no-repeat}
+		.cilt_pic{background:url(../../io_images/resimler/urunler/cilt.jpg) no-repeat}
+		.cinsel_pic{background:url(../../io_images/resimler/urunler/cinsel.jpg) no-repeat}
+		.diyet_pic{background:url(../../io_images/resimler/urunler/diyet.jpg) no-repeat}
+		.elayaktirnak_pic{background:url(../../io_images/resimler/urunler/elayaktirnak.jpg) no-repeat}
+		.erkekbakim_pic{background:url(../../io_images/resimler/urunler/erkekbakim.jpg) no-repeat}
+		.fitoterapi_pic{background:url(../../io_images/resimler/urunler/fitoterapi.jpg) no-repeat}
+		.gunes_pic{background:url(../../io_images/resimler/urunler/gunes.jpg) no-repeat}
+		.kadin_pic{background:url(../../io_images/resimler/urunler/kadin.jpg) no-repeat}
+		.makyaj_pic{background:url(../../io_images/resimler/urunler/makyaj.jpg) no-repeat}
+		.medikal_pic{background:url(../../io_images/resimler/urunler/medikal.jpg) no-repeat}
+		.ortopedi_pic{background:url(../../io_images/resimler/urunler/ortopedi.jpg) no-repeat}
+		.sacbakimi_pic{background:url(../../io_images/resimler/urunler/sacbakimi.jpg) no-repeat}
+		.vucut_pic{background:url(../../io_images/resimler/urunler/vucut.jpg) no-repeat}
+		.vitaminvebitkisel_pic{background:url(../../io_images/resimler/urunler/vitamin.jpg) no-repeat}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		.introtitle{
+			width:495px;
+			height:60px;
+			position:absolute;
+			top:270px;
+			left:25px}
+			.opacity{opacity:0.4;filter:alpha(opacity=40)}
+			
+			
+	
