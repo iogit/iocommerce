@@ -1,11 +1,11 @@
 <?php 
-session_start();
 if(isset($_SESSION["manager"])){
 	
 redirect("intro");
 
 exit();	
 	}
+session_start();
 ?>
         
 <?php
