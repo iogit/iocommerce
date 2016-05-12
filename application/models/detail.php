@@ -18,8 +18,8 @@ if(isset($prdct_id)) //if we can access this id
 	//datails,if no then exit this script and give error message why
 	
 	$query=$this->db->query("SELECT * FROM prdcts_tbl  WHERE prdct_id='$prdct_id' LIMIT 1");
-	$query_comment=mysql_query("SELECT * FROM cmmnts_tbl WHERE cmmnt_prdctID='$prdct_id' ORDER BY cmmnt_date DESC");
-$commentCount=mysql_num_rows($query_comment);
+	$query_comment=$this->db->query("SELECT * FROM cmmnts_tbl WHERE cmmnt_prdctID='$prdct_id' ORDER BY cmmnt_date DESC");
+$commentCount=$query_comment->num_rows();
 	$payment="";
 $commentList="";
 $rate=0;
@@ -65,7 +65,7 @@ if($productCount>0)
 		}
 
     /*Increase product view counter start*/
-	$sql=mysql_query("UPDATE prdcts_tbl SET prdct_view='$prdct_view' where prdct_id='$prdct_id'");
+	$sql=$this->db->query("UPDATE prdcts_tbl SET prdct_view='$prdct_view' where prdct_id='$prdct_id'");
 	
     /*Increase product view counter end*/
 
@@ -92,15 +92,15 @@ if($commentCount>0)
 	 }
 	
 	
-	$query_usr=mysql_query("SELECT * FROM usr_tbl WHERE usr_id='$cmmnt_usrID' LIMIT 1");
-     $usrCount=mysql_num_rows($query_usr);
+	$query_usr=$this->db->query("SELECT * FROM usr_tbl WHERE usr_id='$cmmnt_usrID' LIMIT 1");
+     $usrCount=$query_usr->num_rows();
 	
 	
 			if($usrCount==1){
-				$usrrow=mysql_fetch_array($query_usr);
+				$usrrow=$query_usr->result_array();
       
 		
-			 $usr_userName=$usrrow["usr_userName"];
+			 $usr_userName=$usrrow[0]["usr_userName"];
 	
 	}
 	$commentList.='
@@ -190,8 +190,8 @@ if($commentCount>0)
 		$queryCtgry=$this->db->query("SELECT * FROM ctgrs_tbl  WHERE ctgry_id='$ctgry_id' LIMIT 1");
 		$queryBrnd=$this->db->query("SELECT * FROM brnd_tbl  WHERE brnd_id='$brnd_id' LIMIT 1");
 	
-	$ctgryCount = $queryCtgry->num_rows;
-	$brndCount = $queryBrnd->num_rows;
+	$ctgryCount = $queryCtgry->num_rows();
+	$brndCount = $queryBrnd->num_rows();
 	
 		if($ctgryCount==1){
 					foreach ($queryCtgry->result() as $rowCtgry){
