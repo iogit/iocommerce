@@ -212,10 +212,6 @@ if($commentCount>0)
 			$payment.="<tr><td>İndirimli</td><td>:$dscnt_available</td></tr>";
 			$payment.="<tr><td>İndirimli</td><td>%&nbsp$prdct_discount </td></tr>";
 	        $payment.="</table>";
-	
-
-
-mysql_close();
 
 
 
