@@ -1,11 +1,14 @@
 <?php 
-if(isset($_SESSION["manager"])){
-	
-redirect("intro");
+if(!isset($_SESSION["manager"])){
+	session_start();
 
-exit();	
+
+
+	}else{
+		redirect("intro");
+exit();			
 	}
-session_start();
+
 ?>
         
 <?php
