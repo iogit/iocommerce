@@ -1,14 +1,11 @@
 <?php 
-if(!isset($_SESSION["manager"])){
-	session_start();
+session_start();
+if(isset($_SESSION["manager"])){
+	
+redirect("intro");
 
-
-
-	}else{
-		redirect("intro");
-exit();			
+exit();	
 	}
-
 ?>
         
 <?php
@@ -24,14 +21,14 @@ exit();
 	
 	//include "../storescripts/connect_to_mysql.php";
 	
-	$sql=mysql_query("SELECT admn_id FROM admn_tbl WHERE admn_usrName='$manager' AND admn_psswrd='$password' LIMIT 1");
+	$sql=$this->db->query("SELECT admn_id FROM admn_tbl WHERE admn_usrName='$manager' AND admn_psswrd='$password' LIMIT 1");
 	
 	
-	$existCount=mysql_num_rows($sql);
+	$existCount=$sql->num_rows();
 	
 	if($existCount==1){
 	
-	while($row=mysql_fetch_array($sql)){
+	while($row=$sql->result_array()){
 	$id=$row["admn_id"];
 	}
 	$_SESSION["id"]=$id;
